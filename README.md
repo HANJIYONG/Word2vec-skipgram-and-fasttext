@@ -103,12 +103,14 @@ print(ko_model.wv.most_similar(positive=['어벤져스', '아이언맨'], negati
 
 |T-sne|skipgram|Pretrained -Fasttext|
 |---|---|---|
-|2 dim|![](https://images.velog.io/images/jyong0719/post/7b802fd2-2a4b-4684-950b-5ff667292131/image.png)|![](https://images.velog.io/images/jyong0719/post/c0fff7a8-4a2f-4714-9be9-888955fd4c68/image.png)|
+|2dim|![](https://images.velog.io/images/jyong0719/post/7b802fd2-2a4b-4684-950b-5ff667292131/image.png)|![](https://images.velog.io/images/jyong0719/post/c0fff7a8-4a2f-4714-9be9-888955fd4c68/image.png)|
 |3dim|![](https://images.velog.io/images/jyong0719/post/f144df14-73d8-4a9b-87e0-16624785ff64/image.png)|![](https://images.velog.io/images/jyong0719/post/4977b8f1-907f-4d91-9129-5f3d3ca18b39/image.png)|
 
 Fasttext에서 비슷한 단어들끼리 훨씬 잘 분포함을 느낄 수 있었습니다
 
 
 * 출처 
+
+
 Naver 영화 리뷰 댓글 데이터 - https://github.com/e9t/nsmc/
 Fasttext - https://fasttext.cc/docs/en/crawl-vectors.html
