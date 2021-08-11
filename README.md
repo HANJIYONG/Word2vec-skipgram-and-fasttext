@@ -102,6 +102,6 @@ Fasttext에서 비슷한 단어들끼리 훨씬 잘 분포함을 느낄 수 있�
 
 
 * 출처 
-Naver 영화 리뷰 댓글 데이터 - https://github.com/e9t/nsmc/
 
+Naver 영화 리뷰 댓글 데이터 - https://github.com/e9t/nsmc/
 Fasttext - https://fasttext.cc/docs/en/crawl-vectors.html
