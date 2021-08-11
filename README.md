@@ -46,15 +46,23 @@ token 등장 횟수로 vocabulary 생성
 <figcaption align = "center"><b>Fig 4.skipgram model</b></figcaption>
 </figure>
 
-train epoch - loss 그래프
-![](https://images.velog.io/images/jyong0719/post/3782dbd6-ff41-436c-a774-bbaa28291482/image.png)
+
+<figure>
+<img src =https://images.velog.io/images/jyong0719/post/3782dbd6-ff41-436c-a774-bbaa28291482/image.png style="margin-left: auto; margin-right: auto;">
+<figcaption align = "center"><b>Fig 5.train epoch - loss 그래프</b></figcaption>
+</figure>
+
  
 ## Fasttext
 
 Fasttext는 Facebook에서 학습 후 제공하는 opensource로 
 총 157개의 언어에 대한 word embedding을 제공합니다
 
-![](https://images.velog.io/images/jyong0719/post/17c1d482-da65-4dcf-a897-ac51e3892505/image.png)
+<figure>
+<img src =https://images.velog.io/images/jyong0719/post/17c1d482-da65-4dcf-a897-ac51e3892505/image.png style="margin-left: auto; margin-right: auto;">
+<figcaption align = "center"><b>Fig 6.Fasttext Languages</b></figcaption>
+</figure>
+
 
 ```python
 from gensim import models
@@ -102,7 +110,5 @@ Fasttext에서 비슷한 단어들끼리 훨씬 잘 분포함을 느낄 수 있�
 
 
 * 출처 
-
 Naver 영화 리뷰 댓글 데이터 - https://github.com/e9t/nsmc/
-
 Fasttext - https://fasttext.cc/docs/en/crawl-vectors.html
